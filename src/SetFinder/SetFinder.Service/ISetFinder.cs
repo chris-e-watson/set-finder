@@ -12,15 +12,15 @@ namespace SetFinder.Service
         #region Properties
 
         /// <summary>
-        /// Gets or sets a set of values.
-        /// </summary>
-        ICollection<decimal> Values { get; set; }
-
-
-        /// <summary>
         /// Gets or sets the target value.
         /// </summary>
         decimal Target { get; set; }
+
+
+        /// <summary>
+        /// Gets or sets a set of values.
+        /// </summary>
+        ICollection<decimal> Values { get; set; }
 
         #endregion
 
